@@ -6,7 +6,7 @@
 
 (setq doom-font "Fira Code 13")
 
-(setq doom-theme 'doom-tomorrow-day)
+(setq doom-theme 'gruvbox-light-soft)
 
 (setq org-directory "~/org/")
 

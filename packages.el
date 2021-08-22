@@ -55,3 +55,4 @@
 (package! emmet-mode)
 (package! s)
 (package! autothemer)
+(package! gruvbox-theme)
