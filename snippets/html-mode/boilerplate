@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: boilerplate
+# key: boilerplate
+# --
+
+<!doctype HTML>
+
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <meta charset="utf-8">
+    <title>$1</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="/favicon.ico" rel="icon">
+  </head>
+  <body>
+  $0
+  </body>
+</html>

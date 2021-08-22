@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: class
+# key: class
+# group: object oriented
+# --
+
+class $1($2):
+    """
+    ${3:docstring}
+    """
+
+    def __init__(self, ${4:arg}):
+        ${4:$(s-join "\n"
+        (mapcar
+        (lambda (arg) (s-lex-format "self.${arg} = ${arg}"))
+        (s-split ", ?" yas-text)))}
+    $0
